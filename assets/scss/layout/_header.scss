@@ -1,0 +1,44 @@
+.containerhed {
+  background-color: wheat;
+    height: 584px;
+    margin-top: 24px;
+  .first2 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1128px;
+    width: 100%;
+
+    .first2-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+
+        h2{
+            font-size: 20px;
+            color: rgb(197, 53, 53);
+        }
+        h3{
+            font-size: 30px;
+        }
+
+        button{
+            font-size: 30px;
+            padding: 5px;
+            border-radius: 4px;
+            border: 0;
+            background-color: rgba(10, 59, 10, 0.918);
+            color: white;
+            margin-top: 48px;
+            width: 192px;
+            height: 52px;
+        }
+    }
+
+    .first2-2 {
+      background-image: url(../img/baghome.png);
+      background-repeat: no-repeat;
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,59 @@
+.containernav{
+    
+    .first1{
+        
+        max-width: 1128px;  
+        width: 100%;
+
+        
+        .first1-1{
+            height: 158px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .share{
+                display: flex;
+                align-items: center;
+                div{
+                    position: relative;
+                    input{
+                        border-radius: 8px;
+                        border: 0;
+                        background-color: rgba(245, 222, 179, 0.164);
+                        margin-right:58.85px;
+                        width: 500px;
+                        height: 44px;
+                        padding: 4px;
+                        &:focus{
+                            outline: none;
+                            background-color: rgba(245, 222, 179, 0.5);
+                        }
+                    }
+                i{
+                    position: absolute;
+                    top: 12px;
+                    left: 450px;
+                }    
+                }
+                ul{
+
+                    display: flex;
+                    li{
+                        i{
+                            padding-right: 11.85px;
+                        }
+                        padding-right: 26px;
+                    }
+                }
+            }
+        }
+    }
+    .first1-2{
+        ul{
+            display: flex;
+            li{
+                padding-right: 54px;
+            }
+        }
+    }
+}

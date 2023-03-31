@@ -1,0 +1,161 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+ul, ol {
+  list-style: none;
+  color: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.containernav .first1 {
+  max-width: 1128px;
+  width: 100%;
+}
+.containernav .first1 .first1-1 {
+  height: 158px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.containernav .first1 .first1-1 .share {
+  display: flex;
+  align-items: center;
+}
+.containernav .first1 .first1-1 .share div {
+  position: relative;
+}
+.containernav .first1 .first1-1 .share div input {
+  border-radius: 8px;
+  border: 0;
+  background-color: rgba(245, 222, 179, 0.164);
+  margin-right: 58.85px;
+  width: 500px;
+  height: 44px;
+  padding: 4px;
+}
+.containernav .first1 .first1-1 .share div input:focus {
+  outline: none;
+  background-color: rgba(245, 222, 179, 0.5);
+}
+.containernav .first1 .first1-1 .share div i {
+  position: absolute;
+  top: 12px;
+  left: 450px;
+}
+.containernav .first1 .first1-1 .share ul {
+  display: flex;
+}
+.containernav .first1 .first1-1 .share ul li {
+  padding-right: 26px;
+}
+.containernav .first1 .first1-1 .share ul li i {
+  padding-right: 11.85px;
+}
+.containernav .first1-2 ul {
+  display: flex;
+}
+.containernav .first1-2 ul li {
+  padding-right: 54px;
+}
+
+.containerhed {
+  background-color: wheat;
+  height: 584px;
+  margin-top: 24px;
+}
+.containerhed .first2 {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1128px;
+  width: 100%;
+}
+.containerhed .first2 .first2-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+.containerhed .first2 .first2-1 h2 {
+  font-size: 20px;
+  color: rgb(197, 53, 53);
+}
+.containerhed .first2 .first2-1 h3 {
+  font-size: 30px;
+}
+.containerhed .first2 .first2-1 button {
+  font-size: 30px;
+  padding: 5px;
+  border-radius: 4px;
+  border: 0;
+  background-color: rgba(10, 59, 10, 0.918);
+  color: white;
+  margin-top: 48px;
+  width: 192px;
+  height: 52px;
+}
+.containerhed .first2 .first2-2 {
+  background-image: url(../img/baghome.png);
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+section .containersec {
+  background-color: #007878;
+  height: 48px;
+  align-items: center;
+}
+section .first {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1128px;
+  width: 100%;
+}
+section .first div {
+  display: flex;
+  flex-direction: row;
+}
+section .first div p,
+section .first div i {
+  color: white;
+  margin-right: 12.74px;
+}
+section .first div a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.849);
+}
+section .first div ul .lier {
+  border-right: 1px solid white;
+}
+section .first div ul li {
+  padding-right: 18px;
+  margin-right: 18px;
+  display: inline;
+  list-style-type: none;
+}
+section .recdiv {
+  height: 144px;
+  max-width: 1128px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+section .recdiv ul {
+  display: flex;
+  justify-content: space-between;
+}
+section .recdiv ul i {
+  color: #007878;
+  padding-right: 12px;
+}/*# sourceMappingURL=main.css.map */
