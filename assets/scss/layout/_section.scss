@@ -100,7 +100,32 @@ section {
 
         }
       }
-    }
+    
+      
+      }
+
+
+
+
+
+      @media screen and (max-width:768px) {
+        .first3{
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          div{
+            width: 200px;
+          }
+        }
+      }
+      @media screen and (max-width:468px) {
+        .first3{
+          display: grid;
+          grid-template-columns: 1fr ;
+          div{
+            width: 140px;
+          }
+        }
+      }
   }
 
   .containerfeat {
@@ -228,7 +253,11 @@ section {
 
       }
 
-
+      @media screen and (max-width:768px) {
+        .first4-2{
+          display: block;
+        }
+      }
     }
   }
 
@@ -307,6 +336,20 @@ section {
         }
       }
     }
+  
+    @media screen and (max-width:768px) {
+      .snobella{
+        display: block;
+        .inputdiv{
+          input{
+            width: 296px;
+          }
+          i{
+            left:260px
+          }
+        }
+      }
+  }
   }
 
   .containerabout {
@@ -384,6 +427,18 @@ section {
         }
       }
     }
+  
+      @media screen and (max-width:768px) {
+        .addec{
+          display: block;
+          
+          .link{
+            display: block;
+          }
+        }
+      }
   }
 
+
+  
 }

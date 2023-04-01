@@ -1,59 +1,106 @@
-.containernav{
-    
-    .first1{
-        
-        max-width: 1128px;  
+.containernav {
+
+    .first1 {
+
+        max-width: 1128px;
         width: 100%;
 
-        
-        .first1-1{
+
+        .first1-1 {
             height: 158px;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            .share{
+
+            .share {
                 display: flex;
                 align-items: center;
-                div{
+
+                div {
                     position: relative;
-                    input{
+
+                    input {
                         border-radius: 8px;
                         border: 0;
                         background-color: rgba(245, 222, 179, 0.164);
-                        margin-right:58.85px;
+                        margin-right: 58.85px;
                         width: 496px;
                         height: 40px;
                         padding: 8px;
-                        &:focus{
+
+                        &:focus {
                             outline: none;
                             background-color: rgba(245, 222, 179, 0.5);
                         }
                     }
-                i{
-                    position: absolute;
-                    top: 12px;
-                    left: 460px;
-                }    
+
+                    i {
+                        position: absolute;
+                        top: 12px;
+                        left: 460px;
+                    }
                 }
-                ul{
+
+                ul {
 
                     display: flex;
-                    li{
-                        i{
+
+                    li {
+                        i {
                             padding-right: 11.85px;
                         }
+
                         padding-right: 26px;
                     }
                 }
             }
+        @media screen and (max-width:1000px) {
+            
+                .share{
+                    display: block;
+
+                   
+                }
+            
         }
+        @media screen and (max-width:768px) {
+            
+            .share{
+                display: block;
+
+               div{
+                input{
+                    width: 296px;
+                }
+                i{
+                    left: 260px;
+                }
+               }
+            }
+        
     }
-    .first1-2{
-        ul{
+    }
+    
+    
+        
+    }
+
+    .first1-2 {
+        ul {
             display: flex;
-            li{
+
+            li {
                 padding-right: 54px;
             }
         }
+    @media screen and (max-width:768px) {
+        ul{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            row-gap: 40px;
+        }
     }
+}
+
+    
 }

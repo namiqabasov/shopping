@@ -67,11 +67,34 @@ button, i, img {
 .containernav .first1 .first1-1 .share ul li i {
   padding-right: 11.85px;
 }
+@media screen and (max-width: 1000px) {
+  .containernav .first1 .first1-1 .share {
+    display: block;
+  }
+}
+@media screen and (max-width: 768px) {
+  .containernav .first1 .first1-1 .share {
+    display: block;
+  }
+  .containernav .first1 .first1-1 .share div input {
+    width: 296px;
+  }
+  .containernav .first1 .first1-1 .share div i {
+    left: 260px;
+  }
+}
 .containernav .first1-2 ul {
   display: flex;
 }
 .containernav .first1-2 ul li {
   padding-right: 54px;
+}
+@media screen and (max-width: 768px) {
+  .containernav .first1-2 ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 40px;
+  }
 }
 
 .containerhed {
@@ -194,6 +217,24 @@ section .containersop .first3 div p {
 section .containersop .first3 div img {
   align-self: flex-end;
 }
+@media screen and (max-width: 768px) {
+  section .containersop .first3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  section .containersop .first3 div {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 468px) {
+  section .containersop .first3 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  section .containersop .first3 div {
+    width: 140px;
+  }
+}
 section .containerfeat {
   margin-bottom: 128px;
 }
@@ -295,6 +336,11 @@ section .containerfeat .first4 .first4-2 .first4-2-1 .add {
   border-radius: 8px;
   margin-bottom: 28px;
 }
+@media screen and (max-width: 768px) {
+  section .containerfeat .first4 .first4-2 {
+    display: block;
+  }
+}
 section .bestseller .first4-2-1 .divimg1 img {
   width: 212px;
   height: 134px;
@@ -351,6 +397,17 @@ section .bestseller .first4-2-1 #new1 button {
   position: absolute;
   top: 12px;
   left: 464px;
+}
+@media screen and (max-width: 768px) {
+  .snobellasec .containersno .snobella {
+    display: block;
+  }
+  .snobellasec .containersno .snobella .inputdiv input {
+    width: 296px;
+  }
+  .snobellasec .containersno .snobella .inputdiv i {
+    left: 260px;
+  }
 }
 .snobellasec .containerabout .addec {
   display: flex;
@@ -414,6 +471,14 @@ section .bestseller .first4-2-1 #new1 button {
   width: 100%;
   color: rgba(33, 33, 33, 0.7490196078);
 }
+@media screen and (max-width: 768px) {
+  .snobellasec .containerabout .addec {
+    display: block;
+  }
+  .snobellasec .containerabout .addec .link {
+    display: block;
+  }
+}
 
 footer .container {
   height: 72px;
@@ -440,4 +505,9 @@ footer .container .foot .divitag {
 }
 footer .container .foot .divitag i {
   color: #212121;
+}
+@media screen and (max-width: 768px) {
+  footer .container .foot {
+    display: block;
+  }
 }/*# sourceMappingURL=main.css.map */
