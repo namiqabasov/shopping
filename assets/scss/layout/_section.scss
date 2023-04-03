@@ -100,32 +100,37 @@ section {
 
         }
       }
-    
-      
-      }
+
+
+    }
 
 
 
 
 
-      @media screen and (max-width:768px) {
-        .first3{
-          display: grid;
-          grid-template-columns: 1fr 1fr;
-          div{
-            width: 200px;
-          }
+    @media screen and (max-width:768px) {
+      .first3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        div {
+          width: 200px;
         }
       }
-      @media screen and (max-width:468px) {
-        .first3{
-          display: grid;
-          grid-template-columns: 1fr ;
-          div{
-            width: 140px;
-          }
+    }
+
+    @media screen and (max-width:468px) {
+      .first3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+
+        div {
+          width: 140px;
         }
       }
+    }
   }
 
   .containerfeat {
@@ -254,16 +259,17 @@ section {
       }
 
       @media screen and (max-width:768px) {
-        .first4-2{
+        .first4-2 {
           display: flex;
           flex-direction: column;
           align-items: center;
         }
       }
     }
+
     @media screen and (max-width:768px) {
-      .first4-1{
-        h2{
+      .first4-1 {
+        h2 {
           text-align: center;
         }
       }
@@ -298,6 +304,7 @@ section {
   background-color: #F7F7F9;
   padding-top: 35px;
   padding-bottom: 80px;
+
   .containersno {
     padding-bottom: 36px;
     border-bottom: 1px solid #27314226;
@@ -345,20 +352,40 @@ section {
         }
       }
     }
-  
+
     @media screen and (max-width:768px) {
-      .snobella{
+      .snobella {
         display: block;
-        .inputdiv{
-          input{
-            width: 296px;
+
+        .inputdiv {
+          input {
+            width: 206px;
           }
-          i{
-            left:260px
+
+          i {
+            left: 200px
           }
         }
       }
-  }
+    }
+
+    @media screen and (max-width:568px) {
+      .snobella {
+        flex-direction: column;
+        
+        margin-left: 10%;
+
+        .inputdiv {
+          input {
+            width: 196px;
+          }
+
+          i {
+            left: 160px
+          }
+        }
+      }
+    }
   }
 
   .containerabout {
@@ -436,18 +463,20 @@ section {
         }
       }
     }
-  
-      @media screen and (max-width:768px) {
-        .addec{
-          display: block;
-          
-          .link{
-            display: block;
-          }
+
+    @media screen and (max-width:768px) {
+      .addec {
+        flex-direction: column;
+        align-items: center;
+
+        .link {
+          flex-direction: column;
+          align-items: center;
         }
       }
+    }
   }
 
 
-  
+
 }

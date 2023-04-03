@@ -54,57 +54,71 @@
                     }
                 }
             }
-        @media screen and (max-width:1000px) {
-            
-                .share{
+
+            @media screen and (max-width:1000px) {
+
+                .share {
                     display: block;
 
-                   
-                }
-            
-        }
-        @media screen and (max-width:768px) {
-            .first1{
-                h1{
-                    text-align: center;
-                }
-            }
-            .share{
-                display: flex;
-                flex-direction: column;
-                justify-content: space-around;
 
-               div{
-                input{
-                    width: 296px;
                 }
-                i{
-                    left: 260px;
-                }
-               }
+
             }
-        
+
+            @media screen and (max-width:768px) {
+                .first1 {
+                    h1 {
+                        text-align: center;
+                    }
+
+                }
+
+                .share {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    gap: 10px;
+
+                    div {
+                        input {
+                            width: 206px;
+                        }
+
+                        i {
+                            left: 200px;
+                        }
+                    }
+                }
+
+            }
+
+            @media screen and (max-width:568px) {
+
+                .share {
+
+
+                    div {
+                        input {
+                            width: 196px;
+                        }
+
+                        i {
+                            left: 160px;
+                        }
+                    }
+                }
+
+            }
+        }
+
+
+@media screen and (max-width:768px) {
+    .first1-1{
+               flex-direction: column;
+               justify-content: space-around;
+                    
     }
-    @media screen and (max-width:568px) {
-            
-        .share{
-            
-
-           div{
-            input{
-                width: 196px;
-            }
-            i{
-                left: 160px;
-            }
-           }
-        }
-    
 }
-    }
-    
-    
-        
     }
 
     .first1-2 {
@@ -115,15 +129,16 @@
                 padding-right: 54px;
             }
         }
-    @media screen and (max-width:768px) {
-        ul{
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            margin-left: 10%;
-            row-gap: 40px;
+
+        @media screen and (max-width:768px) {
+            ul {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                margin-left: 10%;
+                row-gap: 40px;
+            }
         }
     }
-}
 
-    
+
 }

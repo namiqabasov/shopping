@@ -80,12 +80,13 @@ button, i, img {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    gap: 10px;
   }
   .containernav .first1 .first1-1 .share div input {
-    width: 296px;
+    width: 206px;
   }
   .containernav .first1 .first1-1 .share div i {
-    left: 260px;
+    left: 200px;
   }
 }
 @media screen and (max-width: 568px) {
@@ -94,6 +95,12 @@ button, i, img {
   }
   .containernav .first1 .first1-1 .share div i {
     left: 160px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .containernav .first1 .first1-1 {
+    flex-direction: column;
+    justify-content: space-around;
   }
 }
 .containernav .first1-2 ul {
@@ -150,6 +157,14 @@ button, i, img {
   background-image: url(../img/baghome.png);
   background-repeat: no-repeat;
   width: 100%;
+}
+@media screen and (max-width: 568px) {
+  .containerhed .first2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10%;
+  }
 }
 
 section .containersec {
@@ -242,8 +257,9 @@ section .containersop .first3 div img {
 }
 @media screen and (max-width: 468px) {
   section .containersop .first3 {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   section .containersop .first3 div {
     width: 140px;
@@ -424,10 +440,22 @@ section .bestseller .first4-2-1 #new1 button {
     display: block;
   }
   .snobellasec .containersno .snobella .inputdiv input {
-    width: 296px;
+    width: 206px;
   }
   .snobellasec .containersno .snobella .inputdiv i {
-    left: 260px;
+    left: 200px;
+  }
+}
+@media screen and (max-width: 568px) {
+  .snobellasec .containersno .snobella {
+    flex-direction: column;
+    margin-left: 10%;
+  }
+  .snobellasec .containersno .snobella .inputdiv input {
+    width: 196px;
+  }
+  .snobellasec .containersno .snobella .inputdiv i {
+    left: 160px;
   }
 }
 .snobellasec .containerabout .addec {
@@ -494,10 +522,12 @@ section .bestseller .first4-2-1 #new1 button {
 }
 @media screen and (max-width: 768px) {
   .snobellasec .containerabout .addec {
-    display: block;
+    flex-direction: column;
+    align-items: center;
   }
   .snobellasec .containerabout .addec .link {
-    display: block;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
@@ -529,6 +559,7 @@ footer .container .foot .divitag i {
 }
 @media screen and (max-width: 768px) {
   footer .container .foot {
-    display: block;
+    flex-direction: column;
+    align-items: center;
   }
 }/*# sourceMappingURL=main.css.map */
