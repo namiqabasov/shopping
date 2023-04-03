@@ -73,14 +73,27 @@ button, i, img {
   }
 }
 @media screen and (max-width: 768px) {
+  .containernav .first1 .first1-1 .first1 h1 {
+    text-align: center;
+  }
   .containernav .first1 .first1-1 .share {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
   }
   .containernav .first1 .first1-1 .share div input {
     width: 296px;
   }
   .containernav .first1 .first1-1 .share div i {
     left: 260px;
+  }
+}
+@media screen and (max-width: 568px) {
+  .containernav .first1 .first1-1 .share div input {
+    width: 196px;
+  }
+  .containernav .first1 .first1-1 .share div i {
+    left: 160px;
   }
 }
 .containernav .first1-2 ul {
@@ -93,6 +106,7 @@ button, i, img {
   .containernav .first1-2 ul {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 10%;
     row-gap: 40px;
   }
 }
@@ -338,7 +352,14 @@ section .containerfeat .first4 .first4-2 .first4-2-1 .add {
 }
 @media screen and (max-width: 768px) {
   section .containerfeat .first4 .first4-2 {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  section .containerfeat .first4-1 h2 {
+    text-align: center;
   }
 }
 section .bestseller .first4-2-1 .divimg1 img {

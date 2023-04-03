@@ -255,7 +255,16 @@ section {
 
       @media screen and (max-width:768px) {
         .first4-2{
-          display: block;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+      }
+    }
+    @media screen and (max-width:768px) {
+      .first4-1{
+        h2{
+          text-align: center;
         }
       }
     }
